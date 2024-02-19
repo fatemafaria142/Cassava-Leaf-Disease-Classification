@@ -1,1 +1,1 @@
-# Skin-Disease-Classification
+# Cassava Leaf Disease Classification
