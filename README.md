@@ -1,37 +1,24 @@
 # Cassava Leaf Disease Classification
 
 ## Overview
-
-This project focuses on classifying cassava leaf diseases using state-of-the-art transformer models. The dataset comprises images of cassava leaves affected by different diseases, including bacterial blight, brown streak disease, green mottle, mosaic disease, and healthy leaves.
+This project focuses on classifying cassava leaf diseases using various transformer models. The dataset consists of five distinct folders, each representing a specific disease affecting cassava plants: bacterial_blight, brown_streak_disease, green_mottle, mosaic_disease, and healthy.
 
 ## Models Used
+1. [Vision Transformer (ViT)](https://huggingface.co/docs/transformers/model_doc/vit)
+2. [Swin Transformer](https://huggingface.co/docs/transformers/model_doc/swin)
+3. [SwiftFormer](https://huggingface.co/docs/transformers/model_doc/swiftformer)
+4. [Pyramid Vision Transformer (PVT)](https://huggingface.co/docs/transformers/model_doc/pvt)
+5. [PoolFormer](https://huggingface.co/docs/transformers/model_doc/poolformer)
 
-### Vision Transformer (ViT)
-- Model Link: [ViT Documentation](https://huggingface.co/docs/transformers/model_doc/vit)
+## Results
 
-### Swin Transformer
-- Model Link: [Swin Documentation](https://huggingface.co/docs/transformers/model_doc/swin)
-
-### SwiftFormer
-- Model Link: [SwiftFormer Documentation](https://huggingface.co/docs/transformers/model_doc/swiftformer)
-
-### Pyramid Vision Transformer (PVT)
-- Model Link: [PVT Documentation](https://huggingface.co/docs/transformers/model_doc/pvt)
-
-### PoolFormer
-- Model Link: [PoolFormer Documentation](https://huggingface.co/docs/transformers/model_doc/poolformer)
+| Model                        | Accuracy | Precision | Recall | F1 Score |
+|------------------------------|----------|-----------|--------|----------|
+| Vision Transformer (ViT)     | 0.7160   | 0.7131    | 0.7160 | 0.7052   |
+| Swin Transformer             | 0.7560   | 0.7633    | 0.7560 | 0.7532   |
+| SwiftFormer                  | 0.7280   | 0.7309    | 0.7280 | 0.7285   |
+| Pyramid Vision Transformer   | 0.7660   | 0.7649    | 0.7660 | 0.7637   |
+| PoolFormer                   | 0.7420   | 0.7453    | 0.7420 | 0.7428   |
 
 ## Dataset
-
-- [Cassava Leaf Disease Classification Dataset](https://www.kaggle.com/datasets/nirmalsankalana/cassava-leaf-disease-classification)
-
-### Dataset Description
-
-The dataset comprises five distinct folders, each representing a specific disease affecting cassava plants:
-
-1. bacterial_blight
-2. brown_streak_disease
-3. green_mottle
-4. mosaic_disease
-5. healthy
-
+The dataset can be found [here](https://www.kaggle.com/datasets/nirmalsankalana/cassava-leaf-disease-classification).
